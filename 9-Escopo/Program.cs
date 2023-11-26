@@ -36,5 +36,11 @@ namespace _9_Escopo
             Console.WriteLine("Tecle enter para finalizar!");
             Console.ReadLine();
         }
+
+        public static string ResultString(string name)
+        {
+            var result = $"A sua variável é: {name} e o tamanho de caracteres é: {name.Length}";
+            return result;
+        }
     }
 }
