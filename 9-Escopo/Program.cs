@@ -6,34 +6,8 @@ namespace _9_Escopo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Executando projeto 9 - Escopo");
-
-            int idadeJoao = 18;
-            bool acompanhado = true;
-            string mensagemAdicional;
-
-            if (acompanhado == true)
-            {
-                mensagemAdicional = "João está acompanhado!";
-                Console.WriteLine(mensagemAdicional);
-            }
-            else
-            {
-                mensagemAdicional = "João NÃO está acompanhado";
-                Console.WriteLine(mensagemAdicional);
-            }
-
-            if (idadeJoao >= 18 || acompanhado == true)
-            {
-                Console.WriteLine("Pode entrar.");
-                Console.WriteLine(mensagemAdicional);
-            }
-            else
-            {
-                Console.WriteLine("Não pode entrar");
-            }
-
-            Console.WriteLine("Tecle enter para finalizar!");
+            var result = ResultInt(0);
+            Console.WriteLine(result);
             Console.ReadLine();
         }
 
@@ -41,6 +15,19 @@ namespace _9_Escopo
         {
             var result = $"A sua variável é: {name} e o tamanho de caracteres é: {name.Length}";
             return result;
+        }
+
+        public static int ResultInt(int numberBox)
+        {
+            if (numberBox <= 5)
+            {
+                Console.WriteLine($"{numberBox}");
+                return ResultInt(++numberBox);
+            }
+            else
+            {
+                return numberBox;
+            }
         }
     }
 }

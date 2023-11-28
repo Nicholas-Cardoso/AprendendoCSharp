@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2005
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-PrimeiroProjeto", "1-PrimeiroProjeto\1-PrimeiroProjeto.csproj", "{5006BB13-6F36-4D88-A41A-6A611DC385D5}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-Condicionais", "7-Condici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-Condicionais2", "8-Condicionais2\8-Condicionais2.csproj", "{391BC12B-3C5C-4594-A174-78473F62980F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Escopo", "9-Escopo\9-Escopo.csproj", "{940C97F0-50C0-4B5C-9593-6473BD0CC774}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-FuncoesERecursividade", "9-Escopo\9-FuncoesERecursividade.csproj", "{940C97F0-50C0-4B5C-9593-6473BD0CC774}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10-LacoDeRepeticaoWhile", "P10-LacoDeRepeticaoWhile\P10-LacoDeRepeticaoWhile.csproj", "{72252359-6C65-41C5-A851-03ECBDA34941}"
 EndProject
